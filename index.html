@@ -64,6 +64,9 @@
 							<li class="nav-item">
 								<a class="nav-link" href="#desc-accordion">FAQ</a>
 							</li>
+							<li class="nav-item">
+								<a class="nav-link" target="_blank" href="https://docs.stabilizedset.finance">Documentation</a>
+							</li>
 
 						</ul>
 					</div>
@@ -126,7 +129,7 @@
 
 								<div class="media-content" style="">
 									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">To meet the optimal market demand, SSD’s total supply can either increase or decrease to return SSD back to 1 USDC peg.
-										However, unlike rebase coins SSD doesn’t increase or decrease the coin supply by adjusting the amount of coins in coin holder’s wallet. SSD offers incentives for it’s holders to voluntarily increase or decrease the coin supply. There are two incentives. Buying coupons and providing liquidity.<br>
+										However, unlike rebase tokens SSD doesn’t increase or decrease the supply by adjusting the amount of tokens in holder’s wallet. SSD offers incentives for it’s holders to voluntarily increase or decrease the supply. There are two incentives. Buying coupons and providing liquidity.<br>
 									</p>
 								</div>
 							</div>
@@ -140,7 +143,7 @@
 
 								<div class="media-content" style="">
 									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">
-										When SSD trades above 1 USDC peg, SSD Governance mints an appropriate amount of new SSD, increasing the coin supply, in order to push the price back down to 1 USDC. 60% of the newly minted SSD is distributed to SSD holders that have bonded their SSD inside the DAO and the coupon buyers, while the remaining 40% is distributed to Uniswap Liquidity Providers.
+										When SSD trades above 1 USDC peg, SSD Governance mints an appropriate amount of new SSD, increasing the coin supply, in order to push the price back down to 1 USDC. 60% of the newly minted SSD is distributed to coupon buyers and SSD holders that have bonded their SSD inside the DAO, while the remaining 40% is distributed to Uniswap Liquidity Providers.
 									</p>
 								</div>
 							</div>
@@ -154,7 +157,7 @@
 
 								<div class="media-content" style="">
 									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">
-										SSD governance issues coupons that expire in 45 days. When SSD trades below 1 USDC peg, holders purchase coupons at a discount price by burning their SSD, thereby reducing circulating supply which in turn increases the price. These coupons are redeemable for newly minted SSD when the price increases above 1 USDC, so it creates the incentive for holder to buy SSD at a lower price, burn part of it and profit from newly minted coins as well as price increase.
+										SSD governance issues coupons that expire in 45 days. When SSD trades below 1 USDC peg, holders purchase coupons at a discount price by burning their SSD, thereby reducing circulating supply which in turn increases the price. These coupons are redeemable for newly minted SSD when the price increases above 1 USDC, so it creates the incentive for holder to buy SSD at a lower price, burn and profit from newly minted coins as well as price increase.
 									</p>
 								</div>
 							</div>
@@ -181,22 +184,8 @@
 
 								<div class="media-content" style="">
 									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">SSD is a fork of Dynamic Set Dollar (DSD) and Dynamic Set Dollar is a fork of Empty Set Dollar (ESD) which is security
-										audited by Certik. DSD and ESD currently work live without problems and security incidents. We made changes that have nothing to do with actual working of the code of ESD/DSD - just the coin name change and constant changes that you can view on Github comparison view. So we can clearly say the code
-										is security audited, however please do your own research and check the security audit as well as the minor changes we did on Github.<br>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="media content-box padding-x2 shadow bg-default border" data-aos-easing="ease" data-aos="zoom-in-right">
-							<div  class="mr-20" style="color: rgb(29, 20, 79);"  >
-								<span class="iconify" height="50" width="50px" data-icon="ri:lock-password-line" data-inline="false"></span>
-							</div>
-							<div class="media-body" style="">
-								<p class="mb-0 text-left" style="color: rgb(43, 177, 96); font-family: Cabin; font-size: 25px; letter-spacing: -0.2px; line-height: 32.1px;"><strong>Liquidity Locked</strong><br></p>
-
-								<div class="media-content" style="">
-									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">We lock 90% of SSD liquidity of our sole Uniswap liquidity pool on Team Finance. As a team we don't own any large supply of coins that may affect the price when sold. Our funding as a team comes from the remaining unlocked 10% liquidity we use overtime and carefully not to affect the price.
-
+										audited by <u><a target="_blank" href="https://github.com/stabilizedset/ssd-protocol/blob/master/audit/REP-Dollar-06-11-20.pdf">Certik</a></u>. DSD and ESD currently work without any security incidents. We made changes that have nothing to do with actual working of the code; coin name change and constant changes that you can view on Github <u><a target="_blank" href="https://github.com/dynamicsetdollar/dsd-protocol/compare/master...stabilizedset:master">comparison view</a></u>. So we can say that the code
+										is security audited, however please DYOR and check the security audit as well as minor changes we did on Github.<br>
 									</p>
 								</div>
 							</div>
@@ -209,7 +198,21 @@
 								<p class="mb-0 text-left" style="color: rgb(43, 177, 96); font-family: Cabin; font-size: 25px; letter-spacing: -0.2px; line-height: 32.1px;"><strong>No Team Coins</strong><br></p>
 
 								<div class="media-content" style="">
-									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">You can check our code on Github to see that only 100 SSD is minted to deployer of the SSD contract. You can also look Etherscan history that no one in SSD team (ecosystem) owns large supply of coins that may affect the price. There is also no mint function that can be seperately used other than the one that is algorithmically used to appropriately increase the supply in case of expansion.
+									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">SSD as well as ESD and DSD are mintable by their natures. However these functions are used algorithmically to increase the supply appropriately in case of SSD trades above 1 USDC peg and supply expansion is necessary. You can check our code on Github to see that only <u><a target="_blank" href="https://github.com/stabilizedset/ssd-protocol/blob/master/protocol/contracts/dao/Implementation.sol">100 SSD</a></u> is minted to deployer of the SSD contract. You can also check Etherscan <u><a target="_blank" href="https://etherscan.io/token/0x7bf5898a9c24818a90d9763bbf4cd1432645c17f">contract</a></u> history that no one related to SSD deployer owns large supply of coins that may affect the price.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="media content-box padding-x2 shadow bg-default border" data-aos-easing="ease" data-aos="zoom-in-right">
+							<div  class="mr-20" style="color: rgb(29, 20, 79);"  >
+								<span class="iconify" height="50" width="50px" data-icon="ri:lock-password-line" data-inline="false"></span>
+							</div>
+							<div class="media-body" style="">
+								<p class="mb-0 text-left" style="color: rgb(43, 177, 96); font-family: Cabin; font-size: 25px; letter-spacing: -0.2px; line-height: 32.1px;"><strong>Liquidity Locked</strong><br></p>
+
+								<div class="media-content" style="">
+									<p class="text-left" style="color: rgb(29, 20, 79); font-family: Cabin; font-size: 20px; line-height: 32.4px;">We lock 90% of SSD liquidity of our sole Uniswap liquidity pool on <u><a target="_blank" href="https://team.finance/view-coin/0x7bf5898a9c24818a90d9763bbf4cd1432645c17f">Team Finance</a></u>. As a team we don't own any large supply of coins that may affect the price when sold. Our funding as a team comes from the remaining unlocked 10% liquidity we use overtime and carefully not to affect the price.
+
 									</p>
 								</div>
 							</div>
@@ -247,7 +250,7 @@
                                              <button class="ac-trigger"><span  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 20px">What is Bonding?</span></button>
                                            </h2>
                                            <div class="ac-panel">
-                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">Bonding is the act of locking SSD in the Stabilized Set Dollar DAO. Holders lock their coins in the DAO in order to gain voting or reward benefits. Also, they can bond their Uniswap LP coins and earn rewards by providing liquidity. This prevents manipulations and flash loan attacks during supply expansion and contraction events.  </p>
+                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">Bonding is the act of locking SSD in the Stabilized Set Dollar DAO. It prevents manipulations and flash loan attacks during supply expansion and contraction events. Holders lock their coins in the DAO in order to gain voting or reward benefits. Locking period for DAO is 24 epochs/1 day once bonded and 24 epochs once unbonded. Rewards are still automatically added to bonded amount. Also, you can bond your Uniswap LP tokens and earn rewards by providing liquidity. LP token locking period is 12 epochs/half day.</p>
                                            </div>
                                          </div>
                                          <div class="ac">
@@ -279,7 +282,7 @@
                                              <button class="ac-trigger"><span  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 20px">Who created Stabilized Set Finance?</span></button>
                                            </h2>
                                            <div class="ac-panel">
-                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">We are developers working to create a more open financial system. Even though the code is audited, just like ESD, DSD, TSD and many other teams we chose to be anonymous as well since Yield farming and using DeFi protocols poses risks. You can contact us on stableset@protonmail.com.</p>
+                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">We are developers working to create a decentralized and permissionless financial system. Even though the code is audited, since yield farming and using DeFi protocols poses risks, just like ESD, DSD, TSD and many other teams we chose to be anonymous as well. You can contact us on stabilizedset@protonmail.com or speak with some of our team members on Telegram. We will be happy to answer your questions.</p>
                                            </div>
                                          </div>
                                          <div class="ac">
@@ -295,7 +298,7 @@
                                              <button class="ac-trigger"><span  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 20px">How do I bond SSD coins?</span></button>
                                            </h2>
                                            <div class="ac-panel">
-                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">From the app, click on DAO.Deposit the coins in your balance you wish to bond into the staged area and click the plus sign, and agree to the transaction. When those coins are staged they will be available to bond. Enter coins that you wish to bond and agree to the transaction. Those coins will be bonded and they will require a 24 epoch exit lockup in order to go back to a frozen state.</p>
+                                             <p class="ac-text"  style="font-family: Cabin;color: rgb(29, 20, 79); font-size: 18px">From the app, click on DAO. Deposit the coins in your balance you wish to bond into the staged area and click the plus sign, and agree to the transaction. When those coins are staged they will be available to bond. Enter coins that you wish to bond and agree to the transaction. Those coins will be bonded and they will require a 24 epoch exit lockup in order to go back to a frozen state.</p>
                                            </div>
                                          </div>
                                          <div class="ac">
@@ -324,20 +327,23 @@
 			      <a  href="https://github.com/stabilizedset" target="_blank" >
                      <img height="40"  src="images/github.png" class="footer-image">
                   </a>
-                  <a  href="https://medium.com/stabilizedset" target="_blank" class="link-block w-inline-block">
+                  <a  href="https://medium.com/@stabilizedset" target="_blank" class="link-block w-inline-block">
                      <img height="40" src="images/medium.png"   class="footer-image">
                   </a>
                   <a href="https://twitter.com/stabilizedset" target="_blank" class="link-block w-inline-block">
                      <img height="50" src="images/twitter.png" class="footer-image">
                   </a>
-                  <a  href="https://info.uniswap.org/coin/ddd" target="_blank" class="link-block w-inline-block">
+                  <a  href="https://info.uniswap.org/pair/0x190f5cd36c49e4d1b67166356aa9ac788f7067a2" target="_blank" class="link-block w-inline-block">
                      <img height="40" src="images/uniswaplogo.png" class="footer-image">
                   </a>
                   <a href="https://t.me/stabilizedset" target="_blank" class="link-block w-inline-block">
                      <img height="40" src="images/telegram.png" class="footer-image">
                   </a>
+                  <a href="https://docs.stabilizedset.finance" target="_blank" class="link-block w-inline-block">
+                     <img height="40" src="images/gitbook.png" class="footer-image">
+                  </a>
 
-						</div>
+					</div>
 						<p class="mb-0 text-secondary" style="">© 2021 Stabilized Set Dollar. All rights reserved.</p>
 					</div>
 				</div>
